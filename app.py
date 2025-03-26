@@ -77,7 +77,7 @@ st.markdown("""
 
 # App title and description
 st.title("📈 Stock Analysis & Trading")
-st.markdown("Analyze stocks, manage portfolio, and set up automated trading strategies with demo money")
+st.markdown("Analyze stocks, manage portfolio, and set up automated trading strategies with demo money by vishwanath tanmai")
 
 # Main navigation
 tab_market, tab_portfolio, tab_trading = st.tabs(["Market Analysis", "Portfolio", "Auto-Trading"])
