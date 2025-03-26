@@ -1,0 +1,13 @@
+{
+    "cash": 99776.25,
+    "positions": {
+        "AAPL": {
+            "shares": 1,
+            "average_price": 223.75,
+            "cost_basis": 223.75,
+            "current_value": 223.75
+        }
+    },
+    "total_value": 100000.0,
+    "initial_value": 100000.0
+}

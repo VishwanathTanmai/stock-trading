@@ -1,0 +1,13 @@
+[
+    {
+        "id": "34ed3594-991e-4751-bef7-390d0288194b",
+        "date": "2025-03-26 10:26:09",
+        "type": "BUY",
+        "symbol": "AAPL",
+        "shares": 1,
+        "price": 223.75,
+        "total": 223.75,
+        "status": "COMPLETED",
+        "automated": false
+    }
+]

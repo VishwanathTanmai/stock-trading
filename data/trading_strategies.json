@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "symbol": "AAPL",
+        "type": "threshold",
+        "params": {
+            "buy_price": 150.0,
+            "take_profit": 5.0,
+            "stop_loss": -5.0,
+            "max_investment": 10000
+        },
+        "active": true,
+        "created_at": "2025-03-26 10:26:53",
+        "last_executed": "2025-03-26 11:01:04",
+        "execution_history": [
+            {
+                "timestamp": "2025-03-26 10:27:04",
+                "action": "NONE",
+                "shares": 0,
+                "price": 223.75,
+                "success": false,
+                "message": "Current change 0.00% not meeting thresholds (profit: 5.0%, loss: -5.0%)"
+            },
+            {
+                "timestamp": "2025-03-26 11:00:35",
+                "action": "NONE",
+                "shares": 0,
+                "price": 223.75,
+                "success": false,
+                "message": "Current change 0.00% not meeting thresholds (profit: 5.0%, loss: -5.0%)"
+            },
+            {
+                "timestamp": "2025-03-26 11:01:04",
+                "action": "NONE",
+                "shares": 0,
+                "price": 223.75,
+                "success": false,
+                "message": "Current change 0.00% not meeting thresholds (profit: 5.0%, loss: -5.0%)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "global": {
+        "enabled": true,
+        "max_loss_percent": 5.0,
+        "max_position_percent": 20.0,
+        "trailing_stop_percent": 3.0,
+        "volatility_protection": true,
+        "max_auto_trades_per_day": 10
+    },
+    "positions": {}
+}

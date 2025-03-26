@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <style>
+    .financial-blue { fill: #0D47A1; }
+    .profit-green { fill: #2E7D32; }
+    .loss-red { fill: #C62828; }
+    .accent-orange { fill: #FB8C00; }
+  </style>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#FAFAFA" stroke="#212121" stroke-width="2" />
+  
+  <!-- Stock Chart Lines -->
+  <polyline class="financial-blue" points="10,70 20,60 30,65 40,50 50,55 60,40 70,45 80,30 90,20" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Candlestick Elements -->
+  <rect class="profit-green" x="20" y="45" width="6" height="15" />
+  <line class="profit-green" x1="23" y1="40" x2="23" y2="60" stroke-width="2" />
+  
+  <rect class="loss-red" x="40" y="40" width="6" height="10" />
+  <line class="loss-red" x1="43" y1="35" x2="43" y2="55" stroke-width="2" />
+  
+  <rect class="profit-green" x="60" y="30" width="6" height="10" />
+  <line class="profit-green" x1="63" y1="25" x2="63" y2="45" stroke-width="2" />
+  
+  <!-- Moving Average Line -->
+  <path class="accent-orange" d="M10,60 C30,60 40,40 60,40 S80,20 90,20" fill="none" stroke-width="2" stroke-dasharray="4" />
+  
+  <!-- App Name -->
+  <text x="50" y="85" font-family="'IBM Plex Sans', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#212121">STOCK ANALYZER</text>
+</svg>
